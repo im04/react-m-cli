@@ -1,0 +1,40 @@
+@value colors: "@AS/styles/common.css";
+@value headerBgColor, headerTextColor, contentBgColor, contentTextColor from colors;
+
+.t-c {
+    text-align: center;
+}
+
+/*-------------------*/
+
+.sider {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+}
+.logo {
+    padding-left: 24px;
+    font-size: 40px;
+    color: white;
+}
+.layout {
+    margin-left: 200px;
+}
+.header {
+    composes: t-c;
+    background: headerBgColor;
+    color: headerTextColor;
+    padding: 0;
+}
+.content {
+    margin: 24px 16px 0;
+    overflow: initial;
+    background: contentBgColor;
+    color: contentTextColor;
+}
+.footer {
+    composes: t-c;
+}

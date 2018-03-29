@@ -1,0 +1,13 @@
+@value colors: "@AS/styles/common.css";
+@value blue, red, green from colors;
+.fs {
+    font-size: 100px;
+}
+.title {
+    composes: fs;
+    color: red;
+    background-color: blue;
+}
+.bold {
+    font-weight: bold;
+}

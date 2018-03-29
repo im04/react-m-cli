@@ -1,6 +1,6 @@
-# 说明文档
+﻿# 说明文档
 
-> smart-code-supplier 后台管理
+> react+react-keeper+mobx
 ## git地址
 
 ```
